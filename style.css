@@ -121,9 +121,9 @@ nav a:hover{
   pointer-events:none;
 }
 
-.albi-running{
+.aube-running{
   position:absolute;
-  width:180px;
+  width: 80px;
   bottom:80px;
   left:-250px;
   animation:runAcross 14s linear infinite;
@@ -254,15 +254,17 @@ a {text-decoration:none;}
 }
 
 .video-box{
-  margin-top:60px;
-  border-radius:30px;
-  overflow:hidden;
+  display:flex;
+  justify-content:center;
+  padding:20px;
 }
 
 .video-box iframe{
   width:100%;
+  max-width:400px;
   height:700px;
   border:none;
+  border-radius:20px;
 }
 
 .family{
@@ -338,8 +340,8 @@ footer{
     height:300px;
   }
 
-  .albi-running{
-    width:120px;
+  .aube-running{
+    width: 80px;
   }
 
 @media (max-width: 768px){
