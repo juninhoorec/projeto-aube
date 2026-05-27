@@ -81,7 +81,7 @@ nav a:hover{
 
 
 .hero-text h1{
-  font-size:4rem;
+  font-size:3rem;
   line-height:1;
   margin-top:20px;
   font-family:'Fredoka',sans-serif;
@@ -303,11 +303,14 @@ footer{
 @media(max-width:900px){
 
   header{
-    padding:16px 24px;
+    position:relative;
+    padding:24px 30px 10px;
+    backdrop-filter:none;
   }
 
   .logo{
     font-size:3rem;
+    line-height:1;
   }
 
   nav{
@@ -315,24 +318,32 @@ footer{
   }
 
   .hero{
-    min-height:100vh;
+    min-height:auto;
     height:auto;
-    padding:170px 30px 80px;
+    padding:40px 30px 90px;
     align-items:flex-start;
+  }
+
+  .mini-text{
+    font-size:1rem;
+    letter-spacing:2px;
   }
 
   .hero-text h1{
     font-size:3rem;
     line-height:1;
+    margin-top:18px;
   }
 
   .hero-text p{
-    font-size:1.5rem;
-    line-height:1.5;
+    font-size:1.35rem;
+    line-height:1.45;
+    margin-top:28px;
   }
 
   .hero-button{
     margin-top:35px;
+    padding:16px 28px;
   }
 
   .about{
@@ -358,7 +369,8 @@ footer{
   }
 
   .aube-running{
-    width:80px;
+    width:70px;
+    bottom:170px;
   }
 }
 @media (max-width: 768px){
